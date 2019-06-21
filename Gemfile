@@ -8,7 +8,6 @@ gem "jekyll", "~> 3.8.5"
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'github-pages'
-  gem 'jekyll-category-pages'
 end
 
 # Performance-booster for watching directories on Windows
