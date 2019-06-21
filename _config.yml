@@ -26,35 +26,15 @@ share:
   twitter_username: github.io
   fb_appid: 1749788565247320
 
-url: "https://cmarcille.github.io"
+url: "https://vijay07roy.github.io"
 baseurl: ""
-
-permalink: :title.html
-exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, Gruntfile.js, Gruntfile.coffee, node_modules]
-include: ['_pages']
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
 markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-archives
-
-# Jekyll Archives Configuration
-jekyll-archives:
-  enabled:
-    - categories
-  layouts:
-    category: category_index
-  permalinks:
-    category: '/category/:name/'
-
-# Pagination
-pagination:
-  enabled: true
-  per_page: 2
-  permalink: 'page/:num/'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
 
 compress_html:
   clippings: all

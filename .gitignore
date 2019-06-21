@@ -1,4 +1,4 @@
-.sass-cache/
-.jekyll-cache/
+_site*
+.sass-cache
 .jekyll-metadata
-/_site
+*backup/
