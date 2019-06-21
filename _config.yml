@@ -1,0 +1,59 @@
+title: Grammar.Guru
+description: CSET Linguistics and more
+author: Grammar.Guru
+github: https://github.com/CMarcille
+about: Passing the CSET Language, Linguistics, and Literacy test is hard! I'm here to help.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/logo.png
+
+enableTags: true
+tagarray: []
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/CMarcille"
+
+share:
+  twitter_username: github.io
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://cmarcille.github.io"
+baseurl: ""
+category_path: "category" # <- default value
+category_layout: "category_index.html" # <- default value
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+permalink: :title.html
+category_dir: categories
+exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, Gruntfile.js, Gruntfile.coffee, node_modules]
+include: ['_pages']
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-category-pages
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
